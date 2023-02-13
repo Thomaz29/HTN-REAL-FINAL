@@ -1,0 +1,76 @@
+.blogs {
+    display: flex;
+    gap: 2rem;
+}
+
+.blogs img {
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.blog-box {
+    width: 500px;
+    padding: 30px 25px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #ececec, #fdfdfd);
+    box-shadow: 30px 30px 50px #dcdcdc, -30px -30px 50px #ffffff;
+    transition: 0.8s cubic-beizer(0.22, 0.78, 0.45, 1.02);
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.blog-box:hover {
+    transform: scale(1.03);
+}
+
+.blog-box img {
+    margin-left: 85px;
+    margin-bottom: 50px;
+}
+
+.blogs2 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-bottom: 50px;
+    width: 800px;
+    margin-left: 150px;
+    text-align: justify;
+}
+
+.blog-box2 img {
+    width: 300px;
+    height: 250px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.blog-box2 h3 {
+    margin-bottom: 30px;
+}
+
+.blogs3 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    margin-bottom: 50px;
+    width: 800px;
+    margin-left: 150px;
+    text-align: justify;
+}
+
+.blog-box3 img {
+    width: 300px;
+    height: 250px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+
+.blog-box3 h3 {
+    margin-bottom: 30px;
+}
